@@ -9,3 +9,6 @@ Wind-Energy-Production-Forecasting-with-Multi-variable-LSTM-Networks
 
 </h1>
 
+# Introduction:
+# Methodology:
+# Results:
