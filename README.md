@@ -17,7 +17,7 @@ The intermittent nature of wind energy poses significant challenges for reliable
 <p align="justify">
 The LSTM model is depending on several features that incorporate with the model,
 <p align="center">
-    <img width="250" src="Images_Ref/Results_08.png" alt="Logo_01">
+    <img width="300" src="Images_Ref/Results_08.png" alt="Logo_01">
 </p>
 <p align="justify">
 For a multivariate LSTM model, feature importance becomes even more critical because the model depends on multiple interrelated features to make predictions. The multivariate nature adds complexity since the importance of a feature may depend not only on its direct contribution but also on its interaction with other features over time.
@@ -25,7 +25,12 @@ For a multivariate LSTM model, feature importance becomes even more critical bec
 
 ## Data set that used in the project:
 <p align="justify">
-The dataset used in this project is sourced from the Wind Turbine Scada Dataset available on [Kaggle](https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset). This dataset contains SCADA (Supervisory Control and Data Acquisition) data collected from wind turbines, including various parameters such as wind speed, wind direction, and power output. The data is recorded at 10-minute intervals, providing a comprehensive view of the turbine's performance over time. This rich dataset is instrumental in training the LSTM model to predict wind energy production accurately.
+The dataset used in this project is sourced from the Wind Turbine Scada Dataset available on Kaggle.
+
+[The Wind Turbine Scada Dataset](https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset)
+
+<p align="justify">
+This dataset contains SCADA (Supervisory Control and Data Acquisition) data collected from wind turbines, including various parameters such as wind speed, wind direction, and power output. The data is recorded at 10-minute intervals, providing a comprehensive view of the turbine's performance over time. This rich dataset is instrumental in training the LSTM model to predict wind energy production accurately.
 <p align="center">
     <img width="750" src="Images_Ref/Results_11.png" alt="Logo_11">
 </p>
@@ -69,11 +74,15 @@ The below graph conforms the model performance.
 </p>
 <p align="justify">
 The above graph shows that the predicted targets align closely with the actual targets.  So, it is evident that model is capable of handling live information for get reliable predictions.
-<p align="justify">
-Wind Speed was identified as the most critical factor, showing a direct proportional relationship with energy output. Three significant data gaps were identified in the dataset, requiring careful handling during model training. The analysis also revealed the need to aggregate data to hourly and 10-minutes intervals for consistent predictions.
+
+### Exploratory Data Analysis:
 
 <p align="center">
     <img width="650" src="Images_Ref/Results_10.png" alt="Results_10">
 </p>
+
+<p align="justify">
+Wind Speed was identified as the most critical factor, showing a direct proportional relationship with energy output. Three significant data gaps were identified in the dataset, requiring careful handling during model training. The analysis also revealed the need to aggregate data to hourly and 10-minutes intervals for consistent predictions.
+
 
 ---
