@@ -1,7 +1,15 @@
 
 # Wind Turbine Power Output Prediction Using LSTM
 
+<p align="center">
+    <img width="1150" src="Images_Ref/Logo_06.png" alt="Logo_01">
+</p>
+
+
+<p align="justify">
 This repository contains a project to predict the power output of wind turbines based on historical data. The project utilizes the Wind Turbine SCADA Dataset from Kaggle and employs Long Short-Term Memory (LSTM) networks to model and forecast power output using multivariate time series data.
+</p>
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -60,18 +68,15 @@ The LSTM model architecture is as follows:
 | Layer         | Units | Activation |
 |---------------|-------|------------|
 | LSTM          | 128   | ReLU       |
-| Dropout       | -     | -          |
 | LSTM          | 64    | ReLU       |
-| Dropout       | -     | -          |
 | LSTM          | 32    | ReLU       |
 | Dense         | 64    | ReLU       |
-| Dropout       | -     | -          |
 | Dense (Output)| 1     | Linear     |
 
 ## Setup Instructions
 
 ### Requirements
-- Python 3.7+
+- Python 3.9+
 - TensorFlow 2.5+
 - NumPy
 - pandas
@@ -135,3 +140,6 @@ Feel free to reach out with feedback or questions. Contributions are welcome!
 - Add any missing MSE/MAE values and a sample plot of results.
 - Make sure you create the referenced scripts (`preprocess.py`, `train_model.py`) or provide a Jupyter notebook if that’s how you organized your project.
 
+
+
+---
